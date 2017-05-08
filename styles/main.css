@@ -1,3 +1,180 @@
+body {
+  font-family: Avenir, sans-serif;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+}
+
+.white-text {
+  color: white;
+}
+
+.container {
+  align-items: center;
+  display: block;
+  justify-content: center;
+}
+
+.container-fluid {
+  align-items: center;
+  display: block;
+  justify-content: center;
+}
+
+/* ------------------------------------------------ Header --------------------------------------- */
+#header {
+  background-color: #0f4068; /* dark blue color*/
+}
+
+.container-head {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo{
+  max-width: 200px;
+  padding: 30px;
+  margin-left: 10%;
+}
+
+nav {
+  color: white;
+  padding-top: 10px;
+  margin-right: 10%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  display: inline;
+  padding-left: 60px;
+  letter-spacing: 3px;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #13b5ea; /* light blue */
+  text-decoration: none;
+}
+
+ul li a:active {
+  color: white;
+  text-decoration: none;
+}
+
+
+/* ------------------------------------------------ Intro --------------------------------------- */
+#intro {
+  background-color: #0f4068; /* dark blue color*/
+}
+
 h1 {
-  color: blue;
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 60px;
+}
+
+#yellow-h1 {
+  color: #ffc81c;  /* yellow color*/
+  margin-top: 0px;
+}
+
+#intro-paragraph {
+  margin: 50px;
+}
+
+#learn-more-button {
+  background-color: white;
+  max-width: 150px;
+  padding: 5px;
+  font-weight: bold;
+  color: #0f4068; /* dark blue color*/
+  border-radius: 5px;
+  border-color: #0f4068;
+  border-style: solid;
+  border-width: 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+#learn-more-button:hover {
+  background-color: #0f4068; /* dark blue color*/
+  color: white;
+  border-radius: 5px;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#learn-more-button a {
+  text-decoration: none;
+  color: #0f4068; /* dark blue color*/
+}
+
+#learn-more-button a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* ------------------------------------------------ Plan Options --------------------------------------- */
+#MEC-about {
+  background-color: #ebebeb; /* grey color*/
+}
+
+.yellow-icon {
+  max-width: 100px;
+  float: left;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.options-text {
+  text-align: left;
+}
+
+/* ------------------------------------------------ Enroll --------------------------------------- */
+#enroll {
+  background-color: #ffc81c;  /* yellow color*/
+}
+
+/* ------------------------------------------------ QLE --------------------------------------- */
+#QLE {
+  background-color: #13b5ea; /* light blue */
+}
+
+/* ------------------------------------------------ FAQ --------------------------------------- */
+.question-box {
+  background-color: #ebebeb; /* grey color*/
+}
+
+.answer-box {
+  background-color: white;
+}
+
+/* ------------------------------------------------ Footer --------------------------------------- */
+#foot-blue {
+  background-color: #0f4068; /* dark blue color*/
+}
+
+#foot-black {
+  background-color: black;
 }
