@@ -17,24 +17,28 @@
 
 <!--  Header --------------------------------------------------------------------------------------------------------->
 <div id="header">
-  <div id="logo">
-    <img src="img/IAG_ESC_Logo2016_1.png">
+  <div class="container-head">
+    <img id="logo" src="img/IAG_ESC_Logo2016_white.png">
+    <nav>
+      <ul>
+        <li><a href="#">ENROLL</a></li>
+        <li><a href="#">NETWORK INFO</a></li>
+        <li><a href="#">LIFE EVENTS</a></li>
+        <li><a href="#">FAQ's</a></li>
+      </ul>
+    </nav>
   </div>
-  <nav>
-    <ul>
-      <li>ENROLL</li>
-      <li>NETWORK INFO</li>
-      <li>LIFE EVENTS</li>
-      <li>FAQ's</li>
-    </ul>
-  </nav>
-
+</div>
 <!--  Intro --------------------------------------------------------------------------------------------------------->
-
-  <h1>YOUR HEALTHCARE, SIMPLFIED.</h1>
-    <p class="white-text">Your company has chosen to offer medical coverage through Essential StaffCARE. Our comprehensive guide is here to help you make the right healthcare choice for you and your family during this complex time in health care reform. <br>
-      You are being offered two plan options for medical coverage. Your plan options are the Fixed Indemnity Medical Plan and MEC Wellness Preventive Plan and you may enroll in either or both of these plans. The differences are outlined below. </p>
-    <button id="learn-more">Learn More</button>
+<div id="intro">
+  <div class="container">
+    <h1>YOUR HEALTHCARE, <h1 id="yellow-h1">SIMPLIFIED.</h1></h1>
+      <div id="intro-paragraph">
+        <p class="white-text">Your company has chosen to offer medical coverage through Essential StaffCARE. Our comprehensive guide is here to help you make the right healthcare choice for you and your family during this complex time in health care reform. <br><br>
+          You are being offered two plan options for medical coverage. Your plan options are the Fixed Indemnity Medical Plan and MEC Wellness Preventive Plan and you may enroll in either or both of these plans. The differences are outlined below. </p>
+            <p id="learn-more-button"><a href="#">LEARN MORE</a></p>
+      </div>
+  </div>
 </div>
 
 <!--  Plan Options --------------------------------------------------------------------------------------------------------->
@@ -42,14 +46,14 @@
   <div class="row">
     <div id="IND-about" class="col-md-6">
       <img class="yellow-icon" alt="Indemnity_icon" src="img/IND.png">
-      <h3 class="black">FIXED INDEMNTIY MEDICAL PLAN</h3>
-        <p class="black-text">This plan pays you money to cover your health needs. If a covered event costs more, you pay the difference. There are no deductibles and no co-pays with this plan. Additional benefits, such as VIsion, Dental, Term Life and Short Term Disability may be available with this plan. Please check your enrollment packet for your customized plan options and rates. <strong>This plan does not satisfy the Individual Mandate and you may be subject to be taxed for failing to purchase insurance required by the ACA. This plan allows you to receive a subsidy at the Health Market Exchange.</strong>
+      <h3 class="options-text">FIXED INDEMNTIY MEDICAL PLAN</h3>
+        <p class="options-text">This plan pays you money to cover your health needs. If a covered event costs more, you pay the difference. There are no deductibles and no co-pays with this plan. Additional benefits, such as VIsion, Dental, Term Life and Short Term Disability may be available with this plan. Please check your enrollment packet for your customized plan options and rates. <strong>This plan does not satisfy the Individual Mandate and you may be subject to be taxed for failing to purchase insurance required by the ACA. This plan allows you to receive a subsidy at the Health Market Exchange.</strong>
         </p>
     </div>
     <div id="MEC-about" class="col-md-6">
       <img class="yellow-icon" alt="MEC_icon" src="img/MEC.png">
-      <h3 class="black">MEC WELLNESS/PREVENTIVE PLAN</h3>
-      <p class="black-text">This plan is in compliance with ACA rules and regulations. It covers 63 wellness and preventive services only and provides 100% of cost when in-network. This plan provides coverage for preventive services such as immunization and rountine health screens and DOES NOT cover medical services. This plan satisfies the Individual Mandate and you will NOT be taxed for not having health insurance. <strong>This plan disqualifies your from receiving a subsidy at the Health Market Exchange.</strong>
+      <h3 class="options-text">MEC WELLNESS/PREVENTIVE PLAN</h3>
+      <p class="options-text">This plan is in compliance with ACA rules and regulations. It covers 63 wellness and preventive services only and provides 100% of cost when in-network. This plan provides coverage for preventive services such as immunization and rountine health screens and DOES NOT cover medical services. This plan satisfies the Individual Mandate and you will NOT be taxed for not having health insurance. <strong>This plan disqualifies your from receiving a subsidy at the Health Market Exchange.</strong>
         <p>
     </div>
   </div>
@@ -91,20 +95,20 @@
 <div id="network">
   <h2>NETWORK INFORMATION</h2>
   <p class="black-text">This benefit plan offers you and your family savings for medical care through discounts negotiated with providers and facilities in the First Health Network. You are not required to, but choosing an in-network provider helps maximize benefits. When you use an in-network provider, you will automatically receive the network discount and the doctor’s office will file the claim for you. If you use a doctor who is not part of the network, you will not receive the discount and you may need to file the claim yourself. To find a participating provider or verify your current medical provider is in-network, please call or visit the network websites referenced below.</p>
-  <div id="row">
-    <div class="col-sm-3"><img class="network-icons" src="img/medical.png"><h3 class="white-text">MEDICAL</h3>
-      <p class="white-text">First Health Network<br>1-800-226-5116<br><a href="www.firsthealth.com">www.firsthealth.com</a></p>
+    <div id="row">
+      <div class="col-sm-3"><img class="network-icons" src="img/medical.png"><h3 class="white-text">MEDICAL</h3>
+        <p class="white-text">First Health Network<br>1-800-226-5116<br><a href="www.firsthealth.com">www.firsthealth.com</a></p>
+      </div>
+      <div class="col-sm-3"><img class="network-icons" src="img/vision.png"><h3 class="white-text">VISION</h3>
+        <p class="white-text">EyeMed Vision Care<br>1-866-723-0513<br><a href="www.eyemedvisioncare.com">www.eyemedvisioncare.com</a></p>
+      </div>
+      <div class="col-sm-3"><img class="network-icons" src="img/dental.png"><h3 class="white-text">DENTAL</h3>
+        <p class="white-text">DenteMax<br>1-800-752-1547<br><a href="www.dentemax.com">www.dentemax.com</a></p>
+      </div>
+      <div class="col-sm-3"><img class="network-icons" src="img/prescription.png"><h3 class="white-text">PRESCRIPTION</h3>
+        <p class="white-text">Caremark<br>1-888-963-7290<br><a href="www.caremark..com">www.caremark.com</a></p>
+      </div>
     </div>
-    <div class="col-sm-3"><img class="network-icons" src="img/vision.png"><h3 class="white-text">VISION</h3>
-      <p class="white-text">EyeMed Vision Care<br>1-866-723-0513<br><a href="www.eyemedvisioncare.com">www.eyemedvisioncare.com</a></p>
-    </div>
-    <div class="col-sm-3"><img class="network-icons" src="img/dental.png"><h3 class="white-text">DENTAL</h3>
-      <p class="white-text">DenteMax<br>1-800-752-1547<br><a href="www.dentemax.com">www.dentemax.com</a></p>
-    </div>
-    <div class="col-sm-3"><img class="network-icons" src="img/prescription.png"><h3 class="white-text">PRESCRIPTION</h3>
-      <p class="white-text">Caremark<br>1-888-963-7290<br><a href="www.caremark..com">www.caremark.com</a></p>
-    </div>
-  </div>
   <p class="black-text"><strong>DO NOT CONTACT THE ABOVE NETWORKS FOR QUESTIONS REGARDING YOUR MEDICAL BENEFITS. ALL MEDICAL BENEFIT QUESTIONS SHOULD BE DIRECTED TO THE ESSENTIAL STAFFCARE MEMBER SERVICES LINE AT 1-866-798-0803.</strong></p>
 </div>
 
@@ -153,9 +157,9 @@
       <p class="black-text">CAN I RECEIVE A SUBSIDY ON THE HEALTH MARKET EXCHANGE?</p>
       <p> + </p>
       <p> - </p>
-    </div>
-    <div class="answer-box">
-      <p class="black-text">A: If you enroll in the Fixed Indemnity Medical Plan, you may still be eligible to receive a subsidy. If you enroll in the MEC plan, you will no longer qualify for a subsidy at the health insurance exchange as this plan will meet the definition of Minimum Essential Coverage. Please DO NOT enroll into the MEC Wellness/Preventive Plan if you wish to obtain or wish to continue receiving Federally subsidized coverage from the health insurance exchange.</p>
+      <div class="answer-box">
+        <p class="black-text">A: If you enroll in the Fixed Indemnity Medical Plan, you may still be eligible to receive a subsidy. If you enroll in the MEC plan, you will no longer qualify for a subsidy at the health insurance exchange as this plan will meet the definition of Minimum Essential Coverage. Please DO NOT enroll into the MEC Wellness/Preventive Plan if you wish to obtain or wish to continue receiving Federally subsidized coverage from the health insurance exchange.</p>
+      </div>
     </div>
 </div>
 
