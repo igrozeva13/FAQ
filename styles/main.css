@@ -8,10 +8,13 @@ p {
   font-weight: lighter;
   letter-spacing: 1px;
   font-size: 1.1em;
+  line-height: 25px;
 }
 
 .white-text {
   color: white;
+  padding: 0px;
+  margin: 2px 0px 10px 0px;
 }
 
 .container {
@@ -24,6 +27,35 @@ p {
   align-items: center;
   display: block;
   justify-content: center;
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 2%;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.left-justified {
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #13b5ea; /* light blue */
+  text-decoration: none;
 }
 
 /* ------------------------------------------------ Header --------------------------------------- */
@@ -107,7 +139,7 @@ h1 {
   border-radius: 5px;
   border-color: #0f4068;
   border-style: solid;
-  border-width: 1px;
+  border-width: 3px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -121,7 +153,7 @@ h1 {
   border-radius: 5px;
   border-color: white;
   border-style: solid;
-  border-width: 1px;
+  border-width: 3px;
 }
 
 #learn-more-button a {
@@ -137,6 +169,7 @@ h1 {
 /* ------------------------------------------------ Plan Options --------------------------------------- */
 #MEC-about {
   background-color: #ebebeb; /* grey color*/
+  padding: 0px 0px 50px 0px;
 }
 
 .yellow-icon {
@@ -144,21 +177,115 @@ h1 {
   float: left;
   margin-left: 5%;
   margin-right: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
-.options-text {
-  text-align: left;
+#MEC-about, #IND-about {
+  height: 15%;
 }
 
 /* ------------------------------------------------ Enroll --------------------------------------- */
 #enroll {
   background-color: #ffc81c;  /* yellow color*/
 }
+#button-steps {
+  margin-top: 3%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.enroll-buttons {
+  padding: 8px 18px 8px 18px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #ffc81c;  /* yellow color*/
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.enroll-buttons:hover {
+  color: #ffc81c;  /* yellow color*/
+  background-color: white;
+  border-color: #ffc81c;  /* yellow color*/
+}
+
+.enroll-buttons a {
+  color: white;
+  text-decoration: none;
+}
+
+.enroll-buttons a:hover {
+  color: #ffc81c;  /* yellow color*/
+  background-color: white;
+  border-color: #ffc81c;  /* yellow color*/
+  text-decoration: none;
+}
+
+.yellow-background {
+  background-color: #ffc81c;  /* yellow color*/
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 100px 0px;
+}
+
+.large-number {
+  color: white;
+  font-weight: bold;
+  font-size: 20em;
+  text-align: right;
+}
+
+.slider {
+  color: white;
+  font-size: 3em;
+  padding: 0 5% 0 5%;
+}
+
+
+/* ------------------------------------------------ Network --------------------------------------- */
+
+.body-paragraph {
+  padding: 2% 10% 2% 10%;
+}
+
+.network-icons {
+  max-width: 20%;
+  margin: 10% 40% 10% 40%;
+}
+
+.row-icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 15%;
+  background-color: #0f4068; /* dark blue color*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.network-links {
+  margin-bottom: 15%;
+}
+
+.network-box:hover {
+  background-color: #13b5ea; /* light blue */
+}
 
 /* ------------------------------------------------ QLE --------------------------------------- */
 #QLE {
   background-color: #13b5ea; /* light blue */
+}
+
+.QLE-icon {
+  height: 50px;
 }
 
 /* ------------------------------------------------ FAQ --------------------------------------- */
