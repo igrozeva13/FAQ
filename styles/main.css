@@ -24,6 +24,10 @@ p {
   color: #13b5ea; /* light blue */
 }
 
+.medium-blue-text {
+  color: #007dc3;
+}
+
 
 .container {
   align-items: center;
@@ -67,6 +71,13 @@ h4 {
 
 .left-justified {
   text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 0px;
+}
+
+.right-justified {
+  text-align: right;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -317,10 +328,45 @@ ul li a:active {
 /* ------------------------------------------------ FAQ --------------------------------------- */
 .question-box {
   background-color: #ebebeb; /* grey color*/
+  margin-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .answer-box {
   background-color: white;
+}
+
+.blue-Q {
+  padding: 10px 10px 0px 10px;
+  background-color: #0f4068; /* dark blue color*/
+  float: left;
+}
+
+.blue-A {
+  float: left;
+}
+
+.plus {
+  padding: 10px 10px 0px 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+.question {
+  padding: 10px 10px 0px 10px;
+  float: left;
+}
+
+.answer-box {
+  background-color: #ebebeb; /* grey color*/
+  margin-bottom: 100px;
+}
+
+.answer {
+  background-color: white;
+  padding: 10px;
+  margin: 25px;
 }
 
 /* ------------------------------------------------ Footer --------------------------------------- */
