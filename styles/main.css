@@ -13,9 +13,21 @@ p {
 
 .white-text {
   color: white;
-  padding: 0px;
-  margin: 2px 0px 10px 0px;
 }
+
+.yellow-text {
+  color: #ffc81c;  /* yellow color*/
+  margin-top: 0px;
+}
+
+.light-blue-text {
+  color: #13b5ea; /* light blue */
+}
+
+.medium-blue-text {
+  color: #007dc3;
+}
+
 
 .container {
   align-items: center;
@@ -29,6 +41,15 @@ p {
   justify-content: center;
 }
 
+h1 {
+  color: white;
+  letter-spacing: 5px;
+  font-weight: 800;
+  text-align: center;
+  font-size: 4em;
+  margin-top: 60px;
+}
+
 h2 {
   letter-spacing: 2px;
   font-weight: 700;
@@ -39,13 +60,30 @@ h2 {
 h3 {
   letter-spacing: 2px;
   font-weight: 700;
+}
+
+h4 {
+  letter-spacing: 2px;
   text-align: center;
+  font-size: 1.5em;
+  line-height: 35px;
 }
 
 .left-justified {
   text-align: left;
   padding-left: 5%;
   padding-right: 5%;
+  margin-bottom: 0px;
+}
+
+.right-justified {
+  text-align: right;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 a {
@@ -110,20 +148,6 @@ ul li a:active {
 /* ------------------------------------------------ Intro --------------------------------------- */
 #intro {
   background-color: #0f4068; /* dark blue color*/
-}
-
-h1 {
-  color: white;
-  letter-spacing: 5px;
-  font-weight: 800;
-  text-align: center;
-  font-size: 4em;
-  margin-top: 60px;
-}
-
-#yellow-h1 {
-  color: #ffc81c;  /* yellow color*/
-  margin-top: 0px;
 }
 
 #intro-paragraph {
@@ -280,21 +304,69 @@ h1 {
 }
 
 /* ------------------------------------------------ QLE --------------------------------------- */
-#QLE {
+.QLE {
   background-color: #13b5ea; /* light blue */
 }
 
 .QLE-icon {
   height: 50px;
+  padding: 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  float: left;
 }
+
+.QLE h4 {
+  padding-top: 8px;
+}
+
+.box {
+  padding-bottom: 5%;
+}
+
 
 /* ------------------------------------------------ FAQ --------------------------------------- */
 .question-box {
   background-color: #ebebeb; /* grey color*/
+  margin-top: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 .answer-box {
   background-color: white;
+}
+
+.blue-Q {
+  padding: 10px 10px 0px 10px;
+  background-color: #0f4068; /* dark blue color*/
+  float: left;
+}
+
+.blue-A {
+  float: left;
+}
+
+.plus {
+  padding: 10px 10px 0px 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+.question {
+  padding: 10px 10px 0px 10px;
+  float: left;
+}
+
+.answer-box {
+  background-color: #ebebeb; /* grey color*/
+  margin-bottom: 100px;
+}
+
+.answer {
+  background-color: white;
+  padding: 10px;
+  margin: 25px;
 }
 
 /* ------------------------------------------------ Footer --------------------------------------- */
@@ -302,6 +374,25 @@ h1 {
   background-color: #0f4068; /* dark blue color*/
 }
 
+#foot-blue p {
+  padding-bottom: 0px;
+  padding-top: 10px;
+  font-size: 1.5em;
+}
+
+#foot-blue h2 {
+  margin: -30px 0px 0px 0px;
+  font-size: 2.5em;
+}
+
+#foot-blue h1 {
+  margin: 0px;
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+
+
 #foot-black {
   background-color: black;
+  padding: 15px 5px 5px 5px;
 }
