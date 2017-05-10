@@ -326,6 +326,10 @@ ul li a:active {
 
 
 /* ------------------------------------------------ FAQ --------------------------------------- */
+#FAQ {
+  margin-bottom: 100px;
+}
+
 .question-box {
   background-color: #ebebeb; /* grey color*/
   margin-top: 50px;
@@ -361,12 +365,28 @@ ul li a:active {
 .answer-box {
   background-color: #ebebeb; /* grey color*/
   margin-bottom: 100px;
+  display: none;
 }
 
 .answer {
   background-color: white;
   padding: 10px;
   margin: 25px;
+}
+
+.plus:hover {
+  cursor: pointer;
+}
+
+.minus:hover {
+  cursor: pointer;
+}
+
+.minus {
+  display: none;
+  padding: 10px 10px 0px 10px;
+  float: right;
+  margin-right: 10px;
 }
 
 /* ------------------------------------------------ Footer --------------------------------------- */
