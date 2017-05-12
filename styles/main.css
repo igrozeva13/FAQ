@@ -264,7 +264,19 @@ ul li a:active {
   color: white;
   font-weight: bold;
   font-size: 20em;
-  text-align: right;
+  float: left;
+  padding-right: 5%;
+  margin-top: -6%;
+}
+
+.mySlides {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#slide-2, #slide-3 {
+  display: none;
 }
 
 .slider {
@@ -273,6 +285,19 @@ ul li a:active {
   padding: 0 5% 0 5%;
 }
 
+.prev, .next {
+  font-size: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.prev:hover, .next:hover {
+  cursor: pointer;
+}
+
+#prev-2, #prev-3, #next-2, #next-3 {
+  display: none;
+}
 
 /* ------------------------------------------------ Network --------------------------------------- */
 
@@ -303,8 +328,12 @@ ul li a:active {
   background-color: #13b5ea; /* light blue */
 }
 
+.network-box a:hover {
+  color: #0f4068; /* dark blue color*/
+}
+
 /* ------------------------------------------------ QLE --------------------------------------- */
-.QLE {
+#QLE {
   background-color: #13b5ea; /* light blue */
 }
 
@@ -316,7 +345,7 @@ ul li a:active {
   float: left;
 }
 
-.QLE h4 {
+#QLE h4 {
   padding-top: 8px;
 }
 
@@ -364,7 +393,6 @@ ul li a:active {
 
 .answer-box {
   background-color: #ebebeb; /* grey color*/
-  margin-bottom: 100px;
   display: none;
 }
 
