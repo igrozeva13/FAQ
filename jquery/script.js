@@ -89,6 +89,9 @@ $(document).ready(function(){
 // --------FAQ ---------------------//
 
   $("#next-1").click(function(){
+    $("#get-covered").css("color", "#ffc81c").css("background-color", "white");
+    $("#when-to-enroll").css("color", "white").css("background-color", "#ffc81c");
+    $("#make-change").css("color", "white").css("background-color", "#ffc81c");
       $("#slide-1").hide();
       $("#next-1").hide();
       $("#prev-1").hide();
@@ -98,6 +101,9 @@ $(document).ready(function(){
   });
 
   $("#next-2").click(function(){
+      $("#make-change").css("color", "#ffc81c").css("background-color", "white");
+      $("#when-to-enroll").css("color", "white").css("background-color", "#ffc81c");
+      $("#get-covered").css("color", "white").css("background-color", "#ffc81c");
       $("#slide-2").hide();
       $("#next-2").hide();
       $("#prev-2").hide();
@@ -107,6 +113,9 @@ $(document).ready(function(){
   });
 
   $("#next-3").click(function(){
+    $("#when-to-enroll").css("color", "#ffc81c").css("background-color", "white");
+    $("#get-covered").css("color", "white").css("background-color", "#ffc81c");
+    $("#make-change").css("color", "white").css("background-color", "#ffc81c");
       $("#slide-3").hide();
       $("#next-3").hide();
       $("#prev-3").hide();
@@ -116,6 +125,9 @@ $(document).ready(function(){
   });
 
   $("#prev-1").click(function(){
+    $("#make-change").css("color", "#ffc81c").css("background-color", "white");
+    $("#when-to-enroll").css("color", "white").css("background-color", "#ffc81c");
+    $("#get-covered").css("color", "white").css("background-color", "#ffc81c");
       $("#slide-1").hide();
       $("#next-1").hide();
       $("#prev-1").hide();
@@ -125,6 +137,9 @@ $(document).ready(function(){
   });
 
   $("#prev-2").click(function(){
+    $("#when-to-enroll").css("color", "#ffc81c").css("background-color", "white");
+    $("#get-covered").css("color", "white").css("background-color", "#ffc81c");
+    $("#make-change").css("color", "white").css("background-color", "#ffc81c");
       $("#slide-2").hide();
       $("#next-2").hide();
       $("#prev-2").hide();
@@ -134,6 +149,9 @@ $(document).ready(function(){
   });
 
   $("#prev-3").click(function(){
+    $("#get-covered").css("color", "#ffc81c").css("background-color", "white");
+    $("#when-to-enroll").css("color", "white").css("background-color", "#ffc81c");
+    $("#make-change").css("color", "white").css("background-color", "#ffc81c");
       $("#slide-3").hide();
       $("#next-3").hide();
       $("#prev-3").hide();
@@ -141,5 +159,82 @@ $(document).ready(function(){
       $("#next-2").show();
       $("#prev-2").show();
   });
+
+// --------FAQ ---------------------//
+
+$("#when-to-enroll").click(function(){
+  $("#when-to-enroll").css("color", "#ffc81c").css("background-color", "white");
+  $("#get-covered").css("color", "white").css("background-color", "#ffc81c");
+  $("#make-change").css("color", "white").css("background-color", "#ffc81c");
+  $("#slide-1").show();
+  $("#next-1").show();
+  $("#prev-1").show();
+  $("#slide-2").hide();
+  $("#next-2").hide();
+  $("#prev-2").hide();
+  $("#slide-3").hide();
+  $("#next-3").hide();
+  $("#prev-3").hide();
+});
+
+  $("#get-covered").click(function(){
+    $("#get-covered").css("color", "#ffc81c").css("background-color", "white");
+    $("#when-to-enroll").css("color", "white").css("background-color", "#ffc81c");
+    $("#make-change").css("color", "white").css("background-color", "#ffc81c");
+    $("#slide-1").hide();
+    $("#next-1").hide();
+    $("#prev-1").hide();
+    $("#slide-2").show();
+    $("#next-2").show();
+    $("#prev-2").show();
+    $("#slide-3").hide();
+    $("#next-3").hide();
+    $("#prev-3").hide();
+  });
+
+  $("#make-change").click(function(){
+    $("#make-change").css("color", "#ffc81c").css("background-color", "white");
+    $("#when-to-enroll").css("color", "white").css("background-color", "#ffc81c");
+    $("#get-covered").css("color", "white").css("background-color", "#ffc81c");
+    $("#slide-1").hide();
+    $("#next-1").hide();
+    $("#prev-1").hide();
+    $("#slide-2").hide();
+    $("#next-2").hide();
+    $("#prev-2").hide();
+    $("#slide-3").show();
+    $("#next-3").show();
+    $("#prev-3").show();
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 });

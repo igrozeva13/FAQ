@@ -237,18 +237,19 @@ ul li a:active {
 .enroll-buttons:hover {
   color: #ffc81c;  /* yellow color*/
   background-color: white;
-  border-color: #ffc81c;  /* yellow color*/
+  border-color: white;  /* yellow color*/
+  cursor: pointer;
 }
 
-.enroll-buttons a {
+.enroll-buttons a{
   color: white;
   text-decoration: none;
 }
 
 .enroll-buttons a:hover {
-  color: #ffc81c;  /* yellow color*/
+  color: #ffc81c;  /* yellow color */
   background-color: white;
-  border-color: #ffc81c;  /* yellow color*/
+  border-color: #ffc81c;  /* yellow color */
   text-decoration: none;
 }
 
