@@ -241,6 +241,13 @@ ul li a:active {
   cursor: pointer;
 }
 
+#when-to-enroll {
+  color: #ffc81c;  /* yellow color*/
+  background-color: white;
+  border-color: white;  /* yellow color*/
+  cursor: pointer;
+}
+
 .enroll-buttons a{
   color: white;
   text-decoration: none;
@@ -258,7 +265,7 @@ ul li a:active {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 100px 0px 100px 0px;
+  padding: 100px 0px 50px 0px;
 }
 
 .large-number {
@@ -267,13 +274,13 @@ ul li a:active {
   font-size: 20em;
   float: left;
   padding-right: 5%;
-  margin-top: -6%;
+  margin-top: -5%;
 }
 
 .mySlides {
-  width: 70%;
-  margin-left: 15%;
-  margin-right: 15%;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 #slide-2, #slide-3 {
@@ -440,8 +447,15 @@ ul li a:active {
   padding-bottom: 15px;
 }
 
-
 #foot-black {
   background-color: black;
   padding: 15px 5px 5px 5px;
+}
+
+#foot-blue a{
+  color: #13b5ea; /* light blue */
+}
+
+#foot-blue a:hover {
+  color: white;
 }
