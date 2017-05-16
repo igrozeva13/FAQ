@@ -95,7 +95,7 @@ $(document).ready(function(){
       $("#slide-1").hide();
       $("#next-1").hide();
       $("#prev-1").hide();
-      $("#slide-2").fadeIn(500);
+      $("#slide-2").fadeIn(750);
       $("#next-2").show();
       $("#prev-2").show();
   });
@@ -107,7 +107,7 @@ $(document).ready(function(){
       $("#slide-2").hide();
       $("#next-2").hide();
       $("#prev-2").hide();
-      $("#slide-3").fadeIn(500);
+      $("#slide-3").fadeIn(750);
       $("#next-3").show();
       $("#prev-3").show();
   });
@@ -119,7 +119,7 @@ $(document).ready(function(){
       $("#slide-3").hide();
       $("#next-3").hide();
       $("#prev-3").hide();
-      $("#slide-1").fadeIn(500);
+      $("#slide-1").fadeIn(750);
       $("#next-1").show();
       $("#prev-1").show();
   });
@@ -131,7 +131,7 @@ $(document).ready(function(){
       $("#slide-1").hide();
       $("#next-1").hide();
       $("#prev-1").hide();
-      $("#slide-3").fadeIn(500);
+      $("#slide-3").fadeIn(750);
       $("#next-3").show();
       $("#prev-3").show();
   });
@@ -143,7 +143,7 @@ $(document).ready(function(){
       $("#slide-2").hide();
       $("#next-2").hide();
       $("#prev-2").hide();
-      $("#slide-1").fadeIn(500);
+      $("#slide-1").fadeIn(750);
       $("#next-1").show();
       $("#prev-1").show();
   });
@@ -155,7 +155,7 @@ $(document).ready(function(){
       $("#slide-3").hide();
       $("#next-3").hide();
       $("#prev-3").hide();
-      $("#slide-2").fadeIn(500);
+      $("#slide-2").fadeIn(750);
       $("#next-2").show();
       $("#prev-2").show();
   });
@@ -166,7 +166,7 @@ $("#when-to-enroll").click(function(){
   $("#when-to-enroll").css("color", "#ffc81c").css("background-color", "white");
   $("#get-covered").css("color", "white").css("background-color", "#ffc81c");
   $("#make-change").css("color", "white").css("background-color", "#ffc81c");
-  $("#slide-1").fadeIn(500);
+  $("#slide-1").fadeIn(750);
   $("#next-1").show();
   $("#prev-1").show();
   $("#slide-2").hide();
@@ -184,7 +184,7 @@ $("#when-to-enroll").click(function(){
     $("#slide-1").hide();
     $("#next-1").hide();
     $("#prev-1").hide();
-    $("#slide-2").fadeIn(500);
+    $("#slide-2").fadeIn(750);
     $("#next-2").show();
     $("#prev-2").show();
     $("#slide-3").hide();
@@ -202,7 +202,7 @@ $("#when-to-enroll").click(function(){
     $("#slide-2").hide();
     $("#next-2").hide();
     $("#prev-2").hide();
-    $("#slide-3").fadeIn(500);
+    $("#slide-3").fadeIn(750);
     $("#next-3").show();
     $("#prev-3").show();
   });

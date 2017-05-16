@@ -191,11 +191,56 @@ ul li a:active {
 }
 
 /* ------------------------------------------------ Plan Options --------------------------------------- */
-#MEC-about {
+#grey-back {
   background-color: #ebebeb; /* grey color*/
-  padding: 0px 0px 50px 0px;
 }
 
+#options .row p{
+  padding-top: 10px;
+}
+
+.subhead {
+  border-bottom-style: solid;
+  border-width: thin;
+  border-color: #13b5ea; /* light blue */
+  padding-bottom: 15px;
+}
+
+#small-text {
+  font-size: 11px;
+  margin-top: -20px;
+}
+
+.first-column {
+  border-right-style: solid;
+  border-width: thin;
+  border-color: #13b5ea; /* light blue */
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.second-column {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.second-column a{
+  color: black;
+}
+
+.second-column a:hover{
+  color: #13b5ea; /* light blue */
+}
+
+#vs img {
+  max-width: 4%;
+  margin-left: 48%;
+  margin-right: 48%;
+  margin-top: -25px;
+  margin-bottom: 35px;
+}
+
+/*
 .yellow-icon {
   max-width: 100px;
   float: left;
@@ -205,8 +250,11 @@ ul li a:active {
 }
 
 #MEC-about, #IND-about {
-  height: 15%;
-}
+  height: 20%;
+  padding-left: 75px;
+  padding-right: 75px;
+} */
+
 
 /* ------------------------------------------------ Enroll --------------------------------------- */
 #enroll {
@@ -246,18 +294,6 @@ ul li a:active {
   background-color: white;
   border-color: white;  /* yellow color*/
   cursor: pointer;
-}
-
-.enroll-buttons a{
-  color: white;
-  text-decoration: none;
-}
-
-.enroll-buttons a:hover {
-  color: #ffc81c;  /* yellow color */
-  background-color: white;
-  border-color: #ffc81c;  /* yellow color */
-  text-decoration: none;
 }
 
 .yellow-background {
@@ -333,11 +369,19 @@ ul li a:active {
 }
 
 .network-box:hover {
-  background-color: #13b5ea; /* light blue */
+  background-color: #007dc3; /* light blue */
 }
 
 .network-box a:hover {
   color: #0f4068; /* dark blue color*/
+}
+
+#network h4 a{
+  color: black;
+}
+
+#network h4 a:hover {
+  color: #13b5ea; /* light blue */
 }
 
 /* ------------------------------------------------ QLE --------------------------------------- */
