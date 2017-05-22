@@ -164,7 +164,7 @@ ul li a:active {
 @media only screen and (max-width : 1279px) {
 .dropbtn {
   color: white;
-  background-color: #0f4068; /* dark blue color*/;
+  background-image: url(file:///Users/staff/Desktop/web/_FAQ/img/background.jpg);
   width: 40px;
   cursor: pointer;
 }
@@ -179,7 +179,7 @@ ul li a:active {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: blue;
+  background-color:  #13b5ea; /* light blue */;
   z-index: 1;
   float: right;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -197,13 +197,24 @@ ul li a:active {
   text-align: center;
   padding: 12px 16px;
   display: block;
-  min-width: 160px;
+  min-width: 200px;
 
 }
 
 .dropdown-content a{
   color: white;
+  letter-spacing: 2px;
 }
+
+.dropdown-content a:hover {
+  color: #0f4068; /* dark blue color*/
+  letter-spacing: 2px;
+}
+/* - hover dropdown menu
+.dropdown:hover .dropdown-content{
+  display: block;
+} */
+
 
 }
 
@@ -377,10 +388,28 @@ ul li a:active {
   margin-top: -5%;
 }
 
+
+@media only screen and (max-width : 1279px) {
 .mySlides {
   width: 80%;
   margin-left: 10%;
   margin-right: 10%;
+}
+}
+
+
+@media only screen and (max-width: 1279px) and (min-width: 1024px) {
+.mySlides {
+  margin: 0px;
+}
+}
+
+@media only screen and (max-width : 1023px) {
+.mySlides {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
 }
 
 #slide-2, #slide-3 {
@@ -486,6 +515,43 @@ ul li a:active {
 .answer-box {
   background-color: white;
 }
+
+@media only screen and (min-width: 1000px) and (max-width : 1199px) {
+.question-box {
+  width: 75%;
+}
+.answer-box {
+  width: 75%;
+}
+}
+
+@media only screen and (min-width: 1200px) and (max-width : 1449px) {
+.question-box {
+  width: 60%;
+}
+.answer-box {
+  width: 60%;
+}
+}
+
+@media only screen and (min-width: 1450px) and (max-width : 1999px) {
+.question-box {
+  width: 50%;
+}
+.answer-box {
+  width: 50%;
+}
+}
+
+@media only screen and (min-width : 2000px) {
+.question-box {
+  width: 35%;
+}
+.answer-box {
+  width: 35%;
+}
+}
+
 
 .blue-Q {
   padding: 10px 10px 0px 10px;
