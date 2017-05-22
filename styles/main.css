@@ -389,7 +389,7 @@ ul li a:active {
 }
 
 
-@media only screen and (max-width : 1279px) {
+@media only screen and (min-width : 1279px) {
 .mySlides {
   width: 80%;
   margin-left: 10%;
@@ -397,10 +397,10 @@ ul li a:active {
 }
 }
 
-
-@media only screen and (max-width: 1279px) and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1279px)  {
 .mySlides {
   margin: 0px;
+  width: 99%;
 }
 }
 
