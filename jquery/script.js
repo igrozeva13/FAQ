@@ -1,5 +1,10 @@
 $(document).ready(function(){
 
+// --------NAV ---------------------//
+  $(".dropbtn").click(function(){
+      $("#myDropdown").slideToggle();
+  });
+
 // --------FAQ ---------------------//
 
     $("#plus-1").click(function(){
