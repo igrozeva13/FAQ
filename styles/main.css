@@ -98,7 +98,7 @@ a:hover {
 
 /* ------------------------------------------------ Header --------------------------------------- */
 #header {
-  background-image: url(file:///Users/staff/Desktop/web/_FAQ/img/background.jpg);
+  background-image: url(../img/background.jpg);
   background-repeat: repeat;
 }
 
@@ -164,7 +164,7 @@ ul li a:active {
 @media only screen and (max-width : 1279px) {
 .dropbtn {
   color: white;
-  background-image: url(file:///Users/staff/Desktop/web/_FAQ/img/background.jpg);
+  background-image: url(../img/background.jpg);
   width: 40px;
   cursor: pointer;
 }
@@ -221,7 +221,7 @@ ul li a:active {
 
 /* ------------------------------------------------ Intro --------------------------------------- */
 #intro {
-  background-image: url(file:///Users/staff/Desktop/web/_FAQ/img/background.jpg);
+  background-image: url(../img/background.jpg);
   background-repeat: repeat;
 }
 
