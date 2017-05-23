@@ -64,10 +64,18 @@ h1 {
   font-weight: 800;
   text-align: center;
   font-size: 2.8em;
-  margin-top: 30px;
+  margin-top: 60px;
   line-height: 40px;
   margin-bottom: 0px;
-}}
+}
+
+h2 {
+  letter-spacing: 2px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 10%;
+}
+}
 
 @media only screen and (min-width : 1024px) {
 h1 {
@@ -77,14 +85,14 @@ h1 {
   text-align: center;
   font-size: 4em;
   margin-top: 60px;
-}}
+}
 
 h2 {
   letter-spacing: 2px;
   font-weight: 700;
   text-align: center;
   padding-top: 2%;
-}
+}}
 
 h3 {
   letter-spacing: 2px;
@@ -137,21 +145,21 @@ a:hover {
   justify-content: space-between;
 }
 
-@media only screen and (min-width : 1024px) {
+@media only screen and (min-width : 1280px) {
 
 #logo{
-  max-width: 200px;
+  max-width: 150px;
   padding: 30px;
   margin-left: 10%;
 }
 }
 
-@media only screen and (max-width : 1023px) {
+@media only screen and (max-width : 1279px) {
 
 #logo{
-  max-width: 150px;
-  padding: 35px 30px 30px 30px;
-  margin-left: 5%;
+  max-width: 85px;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 }
 
@@ -214,7 +222,8 @@ ul li a:active {
   float: right;
   position: relative;
   display: inline-block;
-  margin-right: 100px;
+  margin-right: 5%;
+  margin-top: 5%;
 }
 
 .dropdown-content {
@@ -409,27 +418,6 @@ ul {
 #enroll {
   background-color: #ffc81c;  /* yellow color*/
 }
-#button-steps {
-  margin-top: 3%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.enroll-buttons {
-  padding: 8px 18px 8px 18px;
-  color: white;
-  font-size: 1.2em;
-  font-weight: bold;
-  background-color: #ffc81c;  /* yellow color*/
-  display: inline-block;
-  border-style: solid;
-  border-width: 2px;
-  border-color: white;
-  border-radius: 5px;
-  margin-left: 5%;
-  margin-right: 5%;
-}
 
 .enroll-buttons:hover {
   color: #ffc81c;  /* yellow color*/
@@ -443,23 +431,6 @@ ul {
   background-color: white;
   border-color: white;  /* yellow color*/
   cursor: pointer;
-}
-
-.yellow-background {
-  background-color: #ffc81c;  /* yellow color*/
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  padding: 100px 0px 50px 0px;
-}
-
-.large-number {
-  color: white;
-  font-weight: bold;
-  font-size: 20em;
-  float: left;
-  padding-right: 5%;
-  margin-top: -5%;
 }
 
 
@@ -486,14 +457,133 @@ ul {
 }
 }
 
-@media only screen and (max-width : 1023px) {
+@media only screen and (min-width: 764px) and (max-width : 1023px) {
 .mySlides {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+  width: 100%;
 }
 }
 
+
+
+@media only screen and (min-width : 764px) {
+.mySlides br {
+  display: none;
+}
+
+.large-number {
+  color: white;
+  font-weight: bold;
+  font-size: 20em;
+  float: left;
+  padding-right: 5%;
+  margin-top: -5%;
+}
+
+#button-steps {
+  margin-top: 3%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.enroll-buttons {
+  padding: 8px 18px 8px 18px;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: #ffc81c;  /* yellow color*/
+  display: inline-block;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  border-radius: 5px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.yellow-background {
+  background-color: #ffc81c;  /* yellow color*/
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 100px 0px 50px 0px;
+}
+
+.mySlides h3{
+  padding-bottom: 10px;
+}
+
+.prev, .next {
+  font-size: 40px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+}
+
+/* ------------------------------------------------ Slideshow-mobile --------------------------------------- */
+@media only screen and (max-width : 763px) {
+  .mySlides {
+    width: 100%;
+  }
+
+  .mySlides h3{
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 10px;
+  }
+
+  .mySlides p{
+    text-align: center;
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .large-number {
+    color: white;
+    font-weight: bold;
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: -30px;
+  }
+
+  #button-steps {
+    margin-top: 25px;
+    align-items: stretch;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .enroll-buttons {
+    padding: 8px 8px 8px 8px;
+    color: white;
+    font-size: .75em;
+    font-weight: bold;
+    background-color: #ffc81c;  /* yellow color*/
+    display: inline-block;
+    border-style: solid;
+    border-width: 1.25px;
+    border-color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: normal;
+  }
+
+  .yellow-background {
+    background-color: #ffc81c;  /* yellow color*/
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0px 0px 50px 0px;
+  }
+  .prev, .next {
+    font-size: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+/* ------------------------------------------------ End Slideshow-mobile --------------------------------------- */
 #slide-2, #slide-3 {
   display: none;
 }
@@ -502,12 +592,6 @@ ul {
   color: white;
   font-size: 3em;
   padding: 0 5% 0 5%;
-}
-
-.prev, .next {
-  font-size: 40px;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .prev:hover, .next:hover {
@@ -519,33 +603,6 @@ ul {
 }
 
 /* ------------------------------------------------ Network --------------------------------------- */
-
-.body-paragraph {
-  padding: 2% 10% 2% 10%;
-}
-
-.network-icons {
-  max-width: 20%;
-  margin: 10% 40% 10% 40%;
-}
-
-.row-icons {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 15%;
-  background-color: #0f4068; /* dark blue color*/
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
-.network-links {
-  margin-bottom: 15%;
-}
-
-.network-box:hover {
-  background-color: #007dc3; /* light blue */
-}
 
 .network-box a:hover {
   color: #0f4068; /* dark blue color*/
@@ -559,11 +616,69 @@ ul {
   color: #13b5ea; /* light blue */
 }
 
+@media only screen and (min-width : 764px) {
+.row-icons {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 15%;
+  background-color: #0f4068; /* dark blue color*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.network-icons {
+  max-width: 20%;
+  margin: 10% 40% 10% 40%;
+}
+
+.network-links {
+  margin-bottom: 15%;
+}
+
+.network-box:hover {
+  background-color: #007dc3; /* light blue */
+}
+
+.body-paragraph {
+  padding: 2% 10% 2% 10%;
+}
+}
+
+/* ------------------------------------------------ Network-Mobile --------------------------------------- */
+@media only screen and (max-width : 763px) {
+.row-icons {
+  background-color: #0f4068; /* dark blue color*/
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.network-icons {
+  max-width: 15%;
+  margin: 5% 42.5% 0 42.5%;
+}
+
+.network-links {
+  padding-bottom: 5%;
+}
+
+.light-blue {
+  background-color: #007dc3; /* meidum blue color*/
+}
+
+.body-paragraph {
+  padding: 5% 10% 5% 10%;
+  font-size: 1em;
+  line-height: 24px;
+}
+}
+
 /* ------------------------------------------------ QLE --------------------------------------- */
 #QLE {
   background-color: #13b5ea; /* light blue */
 }
 
+@media only screen and (min-width : 764px) {
 .QLE-icon {
   height: 75px;
   padding: 5px;
@@ -582,8 +697,38 @@ ul {
 
 .box {
   padding-bottom: 5%;
+} }
+
+/* ------------------------------------------------ QLE-mobile --------------------------------------- */
+@media only screen and (max-width : 763px) {
+.QLE-icon {
+  height: 55px;
+  padding: 5px 5px 5px 5px;
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 5px;
+  float: left;
 }
 
+.top{
+  padding-top: 15px;
+}
+
+.bottom {
+  padding-top: 16px;
+  line-height: 19px;
+}
+
+.box {
+  padding-bottom: 10%;
+}
+
+.box h4 {
+  font-size: 15px;
+  }
+
+}
+/* ------------------------------------------------ end QLE-mobile --------------------------------------- */
 
 /* ------------------------------------------------ FAQ --------------------------------------- */
 #FAQ {
@@ -600,6 +745,71 @@ ul {
 .answer-box {
   background-color: white;
 }
+
+.blue-Q {
+  padding: 10px 10px 0px 10px;
+  background-color: #0f4068; /* dark blue color*/
+  float: left;
+}
+
+.blue-A {
+  float: left;
+}
+
+.plus {
+  padding: 10px 10px 0px 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+.answer-box {
+  background-color: #ebebeb; /* grey color*/
+  display: none;
+}
+
+.answer {
+  background-color: white;
+  padding: 10px;
+  margin: 25px;
+}
+
+.plus:hover {
+  cursor: pointer;
+}
+
+.minus:hover {
+  cursor: pointer;
+}
+
+.minus {
+  display: none;
+  padding: 10px 10px 0px 10px;
+  float: right;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width : 999px) {
+.question-box {
+  width: 90%;
+}
+.answer-box {
+  width: 90%;
+}
+
+.question {
+  padding: 2px 10px 0px 10px;
+}
+
+#FAQ p{
+  font-size: 13px;
+}
+}
+
+@media only screen and (min-width : 1000px) {
+.question {
+  padding: 10px 10px 0px 10px;
+  float: left;
+}}
 
 @media only screen and (min-width: 1000px) and (max-width : 1199px) {
 .question-box {
@@ -637,53 +847,6 @@ ul {
 }
 }
 
-
-.blue-Q {
-  padding: 10px 10px 0px 10px;
-  background-color: #0f4068; /* dark blue color*/
-  float: left;
-}
-
-.blue-A {
-  float: left;
-}
-
-.plus {
-  padding: 10px 10px 0px 10px;
-  float: right;
-  margin-right: 10px;
-}
-
-.question {
-  padding: 10px 10px 0px 10px;
-  float: left;
-}
-
-.answer-box {
-  background-color: #ebebeb; /* grey color*/
-  display: none;
-}
-
-.answer {
-  background-color: white;
-  padding: 10px;
-  margin: 25px;
-}
-
-.plus:hover {
-  cursor: pointer;
-}
-
-.minus:hover {
-  cursor: pointer;
-}
-
-.minus {
-  display: none;
-  padding: 10px 10px 0px 10px;
-  float: right;
-  margin-right: 10px;
-}
 
 /* ------------------------------------------------ Footer --------------------------------------- */
 #foot-blue {
