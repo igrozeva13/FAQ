@@ -98,7 +98,7 @@ h1 {
   font-weight: 800;
   text-align: center;
   font-size: 4em;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 h2 {
@@ -330,6 +330,10 @@ ul li a:active {
 /* ------------------------------------------------ Plan Options --------------------------------------- */
 #grey-back {
   background-color: #ebebeb; /* grey color*/
+}
+
+#options-large {
+  margin-bottom: 70px;
 }
 
 @media only screen and (min-width : 1025px) {
@@ -721,41 +725,37 @@ ul {
 
 /* ------------------------------------------------ QLE-midsize tablet --------------------------------------- */
 @media only screen and (min-width : 765px) and (max-width: 1200px){
-  .QLE {
-    background-color: green;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
-
   .QLE-icon {
-    height: 55px;
-    padding: 5px 15px 5px 0px;
+    height: 75px;
+    padding: 5px;
+    margin-left: 3%;
+    margin-right: 3%;
     float: left;
-    margin-left: -5%;
   }
 
   .top{
-    padding-top: 10px;
+    padding-top: 5%;
+    line-height: 19px;
   }
 
   .bottom {
-    padding-top: 10px;
+    padding-top: 3%;
     line-height: 19px;
   }
 
   .box {
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
 
   .box h4 {
-    font-size: 12px;
+    font-size: 16px;
+    padding-bottom: 5%;
     }
 }
 
 /* ------------------------------------------------ QLE-small tablet --------------------------------------- */
 @media only screen and (min-width : 461px) and (max-width: 764px){
   .QLE {
-    background-color: red;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 50px;
@@ -769,11 +769,13 @@ ul {
   }
 
   .top{
-    padding-top: 10px;
+    padding-top:7%;
+    padding-bottom: 5%;
+    line-height: 19px;
   }
 
   .bottom {
-    padding-top: 10px;
+    padding-top: 5%;
     line-height: 19px;
   }
 
@@ -782,7 +784,7 @@ ul {
   }
 
   .box h4 {
-    font-size: 18px;
+    font-size: 16px;
     }
 }
 
