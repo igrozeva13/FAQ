@@ -1,9 +1,7 @@
 $(document).ready(function(){
 
 // --------NAV ---------------------
-  $(".dropbtn").click(function(){
-      $("#myDropdown").slideToggle();
-  });
+// $(".dropbtn").click(function(){  $("#myDropdown").slideToggle();}); //
 
 // --------FAQ ---------------------//
 
