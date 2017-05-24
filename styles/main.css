@@ -5,7 +5,7 @@ body {
 @media only screen and (max-width : 1023px) {
 p {
   color: black;
-  text-align: center;
+  text-align: justify;
   font-weight: normal;
   letter-spacing: 1px;
   font-size: 1em;
@@ -63,10 +63,12 @@ h1 {
   letter-spacing: 5px;
   font-weight: 800;
   text-align: center;
-  font-size: 2.8em;
+  font-size: 2.7em;
   margin-top: 60px;
   line-height: 40px;
   margin-bottom: 0px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h2 {
@@ -74,6 +76,18 @@ h2 {
   font-weight: 700;
   text-align: center;
   padding-top: 10%;
+}
+
+h3 {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+h4 {
+  letter-spacing: 2px;
+  text-align: justify;
+  font-size: 1.5em;
+  line-height: 35px;
 }
 }
 
@@ -92,7 +106,7 @@ h2 {
   font-weight: 700;
   text-align: center;
   padding-top: 2%;
-}}
+}
 
 h3 {
   letter-spacing: 2px;
@@ -104,7 +118,7 @@ h4 {
   text-align: center;
   font-size: 1.5em;
   line-height: 35px;
-}
+} }
 
 .left-justified {
   text-align: left;
@@ -248,7 +262,6 @@ ul li a:active {
   padding: 12px 16px;
   display: block;
   min-width: 200px;
-
 }
 
 .dropdown-content a{
@@ -260,10 +273,10 @@ ul li a:active {
   color: #0f4068; /* dark blue color*/
   letter-spacing: 2px;
 }
-/* - hover dropdown menu
+
 .dropdown:hover .dropdown-content{
   display: block;
-} */
+}
 
 }
 /* ------------------------------------------------ End Small Nav--------------------------------------- */
@@ -275,7 +288,7 @@ ul li a:active {
 }
 
 #intro-paragraph {
-  margin: 50px;
+  margin: 10%;
 }
 
 #learn-more-button {
@@ -612,9 +625,6 @@ ul {
   color: black;
 }
 
-#network h4 a:hover {
-  color: #13b5ea; /* light blue */
-}
 
 @media only screen and (min-width : 764px) {
 .row-icons {
@@ -643,6 +653,10 @@ ul {
 .body-paragraph {
   padding: 2% 10% 2% 10%;
 }
+
+#network h4 a:hover {
+  color: #13b5ea; /* light blue */
+}
 }
 
 /* ------------------------------------------------ Network-Mobile --------------------------------------- */
@@ -670,6 +684,10 @@ ul {
   padding: 5% 10% 5% 10%;
   font-size: 1em;
   line-height: 24px;
+}
+
+#network a:hover {
+  color: #13b5ea; /* light blue */
 }
 }
 
@@ -724,7 +742,7 @@ ul {
 }
 
 .box h4 {
-  font-size: 15px;
+  font-size: 14px;
   }
 
 }
@@ -758,8 +776,8 @@ ul {
 
 .plus {
   padding: 10px 10px 0px 10px;
-  float: right;
   margin-right: 10px;
+  float: right;
 }
 
 .answer-box {
@@ -788,22 +806,58 @@ ul {
   margin-right: 10px;
 }
 
+.question p{
+  text-align: left-justified;
+}
+
+/* ------------------------------------------------ FAQ-mobile --------------------------------------- */
 @media only screen and (max-width : 999px) {
 .question-box {
   width: 90%;
+  display: flex;
+  justify-content: space-between;
+  height: 65px;
 }
+
 .answer-box {
   width: 90%;
 }
 
 .question {
-  padding: 2px 10px 0px 10px;
+  padding: 10px 10px 0px 10px;
 }
 
-#FAQ p{
+.question p{
   font-size: 13px;
+  text-align: center;
+}
+
+.answer p {
+  text-align: justify;
+}
+
+.blue-A {
+  margin-right: 4px;
+  margin-left: -4px;
+}
+
+.blue-Q {
+  padding: 20px 10px 20px 10px;
+  height: 65px;
+  margin-right: auto;
+}
+
+.plus {
+  padding: 10px 10px 0px 10px;
+  margin-left: auto;
+}
+
+.minus {
+  padding: 10px 10px 0px 10px;
+  margin-left: auto;
 }
 }
+/* ------------------------------------------------ end-mobile --------------------------------------- */
 
 @media only screen and (min-width : 1000px) {
 .question {
@@ -853,24 +907,6 @@ ul {
   background-color: #0f4068; /* dark blue color*/
 }
 
-#foot-blue p {
-  padding-bottom: 0px;
-  padding-top: 10px;
-  font-size: 1.5em;
-}
-
-#foot-blue h2 {
-  margin: -30px 0px 0px 0px;
-  font-size: 2.5em;
-  padding-top: 25px;
-}
-
-#foot-blue h1 {
-  margin: 0px;
-  font-size: 3em;
-  padding-bottom: 15px;
-}
-
 #foot-black {
   background-color: black;
   padding: 15px 5px 5px 5px;
@@ -882,4 +918,47 @@ ul {
 
 #foot-blue a:hover {
   color: white;
+}
+
+@media only screen and (min-width : 764px) {
+  #foot-blue p {
+    padding-bottom: 0px;
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  #foot-blue h2 {
+    margin: -30px 0px 0px 0px;
+    font-size: 2.5em;
+    padding-top: 25px;
+  }
+
+  #foot-blue h1 {
+    margin: 0px;
+    font-size: 3em;
+    padding-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width : 763px) {
+  #foot-blue p {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: center;
+  }
+
+  #foot-blue h2 {
+    margin: -30px 0px 0px 0px;
+    font-size: 2em;
+    padding-top: 25px;
+  }
+
+  #foot-blue h1 {
+    margin: 0px;
+    font-size: 2.3em;
+    padding-bottom: 15px;
+  }
+
 }
