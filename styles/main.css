@@ -696,7 +696,8 @@ ul {
   background-color: #13b5ea; /* light blue */
 }
 
-@media only screen and (min-width : 764px) {
+@media only screen and (min-width : 1201px) {
+
 .QLE-icon {
   height: 75px;
   padding: 5px;
@@ -717,23 +718,94 @@ ul {
   padding-bottom: 5%;
 } }
 
+
+/* ------------------------------------------------ QLE-midsize tablet --------------------------------------- */
+@media only screen and (min-width : 765px) and (max-width: 1200px){
+  .QLE {
+    background-color: green;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .QLE-icon {
+    height: 55px;
+    padding: 5px 15px 5px 0px;
+    float: left;
+    margin-left: -5%;
+  }
+
+  .top{
+    padding-top: 10px;
+  }
+
+  .bottom {
+    padding-top: 10px;
+    line-height: 19px;
+  }
+
+  .box {
+    padding-bottom: 10%;
+  }
+
+  .box h4 {
+    font-size: 12px;
+    }
+}
+
+/* ------------------------------------------------ QLE-small tablet --------------------------------------- */
+@media only screen and (min-width : 461px) and (max-width: 764px){
+  .QLE {
+    background-color: red;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 50px;
+  }
+
+  .QLE-icon {
+    height: 75px;
+    padding: 5px 15px 5px 0px;
+    float: left;
+    margin-left: -5%;
+  }
+
+  .top{
+    padding-top: 10px;
+  }
+
+  .bottom {
+    padding-top: 10px;
+    line-height: 19px;
+  }
+
+  .box {
+    padding-bottom: 10%;
+  }
+
+  .box h4 {
+    font-size: 18px;
+    }
+}
+
 /* ------------------------------------------------ QLE-mobile --------------------------------------- */
-@media only screen and (max-width : 763px) {
+@media only screen and (max-width : 460px) {
+.QLE {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .QLE-icon {
   height: 55px;
-  padding: 5px 5px 5px 5px;
-  margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 5px;
+  padding: 5px 15px 5px 0px;
   float: left;
+  margin-left: -5%;
 }
 
 .top{
-  padding-top: 15px;
+  padding-top: 10px;
 }
 
 .bottom {
-  padding-top: 16px;
+  padding-top: 10px;
   line-height: 19px;
 }
 
@@ -742,7 +814,7 @@ ul {
 }
 
 .box h4 {
-  font-size: 14px;
+  font-size: 12px;
   }
 
 }
