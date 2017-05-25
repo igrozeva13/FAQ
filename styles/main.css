@@ -191,28 +191,28 @@ a:hover {
   margin-right: 10%;
 }
 
-ul {
+.dropdown-content ul {
   list-style: none;
   float: right;
 }
 
-li {
+.dropdown-content li {
   display: inline;
   padding-left: 60px;
   letter-spacing: 3px;
 }
 
-ul li a {
+.dropdown-content ul li a {
   color: white;
   text-decoration: none;
 }
 
-ul li a:hover {
+.dropdown-content ul li a:hover {
   color: #13b5ea; /* light blue */
   text-decoration: none;
 }
 
-ul li a:active {
+.dropdown-content ul li a:active {
   color: white;
   text-decoration: none;
 }
@@ -288,17 +288,18 @@ ul li a:active {
 }
 
 #intro-paragraph {
-  margin: 7% 10% 10% 10%;
+  margin: 7% 10% 20% 10%;
 }
 
+/*
 #learn-more-button {
   background-color: white;
   max-width: 150px;
   padding: 5px;
   font-weight: bold;
-  color: #0f4068; /* dark blue color*/
+  color: #0f4068;
   border-radius: 5px;
-  border-color: #0f4068;
+  border-color: #0f4068; /* dark blue color
   border-style: solid;
   border-width: 3px;
   text-align: center;
@@ -320,49 +321,118 @@ ul li a:active {
 
 #learn-more-button a {
   text-decoration: none;
-  color: #0f4068; /* dark blue color*/
+  color: #0f4068; /* dark blue color
 }
 
 #learn-more-button a:hover {
   text-decoration: none;
   color: white;
-}
+}  */
 
 /* ------------------------------------------------ Plan Options --------------------------------------- */
-#grey-back {
-  background-color: #ebebeb; /* grey color*/
+
+#options-small a, #options-large a{
+  color: black;
 }
 
-#options-large {
-  margin-bottom: 70px;
+#options-small a, #options-large a{
+  cursor: pointer;
+}
+
+#options-small a:hover, #options-large a:hover{
+  color: #13b5ea; /* light blue */
 }
 
 @media only screen and (min-width : 1025px) {
-#options-large .row p{
-  padding-top: 10px;
+.options-text {
+  font-size: 24px;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin-top: 15px;
+  margin-bottom: 5px;
 }
+
+#row-1 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#IND-about {
+  background-color: #cccccc;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+#MEC-about {
+  background-color: #ebebeb;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+  width: 50%;
+}
+
+  #options-large {
+    margin-bottom: 70px;
+    width: 65%;
+    box-shadow: 0 14px 40px 0 rgba(0, 0, 0, 0.2), 0 16px 40px 0 rgba(0, 0, 0, 0.19);
+    margin-top: -100px;
+    margin-bottom: 8%;
+  }
+
+  .first-column {
+    border-right-style: solid;
+    border-width: thin;
+    border-color: #ffc81c;  /* yellow color*/
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .second-column {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
 
 #options-small {
   display: none;
 }
 
-.subhead {
-  border-bottom-style: solid;
-  border-width: thin;
-  border-color: #13b5ea; /* light blue */
-  padding-bottom: 15px;
+.details-list {
+  text-decoration: none;
+  text-align: center;
+  list-style-type: none;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 0px;
 }
 
-#small-text {
-  font-size: 11px;
-  margin-top: -20px;
+.details-list li {
+  padding-bottom: 10px;
+}
+
+.details-list li::after {
+  content: "";
+  background: #ffc81c;  /* yellow color*/;
+  position: absolute;
+  left: 40%;
+  right: 40%;
+  height: 1px;
+  width: 20%;
+  margin-top: 30px;
 }
 }
+
 
 /* ------------------------------------------------ Plan Options -Mobile--------------------------------------- */
 @media only screen and (max-width : 1024px) {
 #grey-back {
   width: 100%;
+  background-color: #ebebeb; /* grey color*/
 }
 
 #grey-back h4{
@@ -401,36 +471,6 @@ ul {
 }
 /* ------------------------------------------------ End Mobile--------------------------------------- */
 
-
-
-.first-column {
-  border-right-style: solid;
-  border-width: thin;
-  border-color: #13b5ea; /* light blue */
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-.second-column {
-  margin-bottom: 30px;
-  margin-top: 30px;
-}
-
-#options-small a, #options-large a{
-  color: black;
-}
-
-.second-column a:hover{
-  color: #13b5ea; /* light blue */
-}
-
-#vs img {
-  max-width: 4%;
-  margin-left: 48%;
-  margin-right: 48%;
-  margin-top: -25px;
-  margin-bottom: 35px;
-}
 
 /* ------------------------------------------------ Enroll --------------------------------------- */
 #enroll {
