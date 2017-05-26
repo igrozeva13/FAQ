@@ -666,6 +666,11 @@ ul {
   color: #0f4068; /* dark blue color*/
 }
 
+.network-box a:visited {
+  color: white;
+  text-decoration: none;
+}
+
 #network h4 a{
   color: black;
 }
